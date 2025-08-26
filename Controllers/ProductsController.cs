@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using ProductInventoryApi.Models;
 using ProductInventoryApi.Services;
 
