@@ -23,8 +23,8 @@ to manage products in an inventory.
 - **ASP.NET Core 8**
 - **Entity Framework Core**
 - **SQLite DB**
-- **Swagger** (API testing)
-- **Postman** (API testing)
+- **Swagger** (API testing) - http://localhost:5002/swagger/index.html
+- **Postman** (API testing) - Postman collection
 
 ---
 Database already contains 20 by default dummy data fields 
@@ -34,20 +34,15 @@ Database already contains 20 by default dummy data fields
 git clone https://github.com/anveetpal01/HoshoProductInventory.git
 cd HoshoProductInventory
 
-### 3. Install required Libraries
-Install-Package Microsoft.EntityFrameworkCore
-Install-Package Microsoft.EntityFrameworkCore.Sqlite
-Install-Package Microsoft.EntityFrameworkCore.Tools
+### 3. restore installed libraries
+dotnet restore
 
+### 4. Run project / Start server
+dotnet run
+(Download the postman collection named - Product Inventory API_new.postman_collection.json)
+Download postman collection -> open postman -> import collection to postman -> Run it.
 
-### 3. Apply Migations
-Add-Migration InitialCreate
-Update-Database
-
-### 4. Run the API
-open the .csproj file in visual studio and press ctrl+f5 or start without debugging
-
-
+### Sample Apis and Responses
 | Method | Endpoint             | Description                | Query / Body                                                                                                                        |
 | ------ | -------------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | GET    | `/api/products`      | Get all products           | Query parameters (optional): `category`, `Description`, `sortOrder` (`asc`/`desc`), `page`, `pageSize`, `lowStock` (`true`/`false`) |
