@@ -32,20 +32,20 @@ Database already contains 20 by default dummy data fields
 
 ### 1. Clone Repository
 git clone https://github.com/anveetpal01/HoshoProductInventory.git
+### 2. goto directory
 cd HoshoProductInventory
-
 ### 3. restore installed libraries
 dotnet restore
-
 ### 4. Run project / Start server
 dotnet run
-(Download the postman collection named - ProductInventoryAPI_5002.postman_collection.json)
-Download postman collection -> open postman -> import collection to postman -> Run it.
+### 5. Check on postman
+(Postman collection already downloaded in HoshoProductInventory as ProductInventoryAPI_5002.postman_collection.json)
+Open postman -> import collection to postman -> Run it.
 
 ### Sample Apis and Responses
 | Method | Endpoint             | Description                | Query / Body                                                                                                                        |
 | ------ | -------------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| GET    | `/api/products`      | Get all products           | Query parameters (optional): `category`, `Description`, `sortOrder` (`asc`/`desc`), `page`, `pageSize`, `lowStock` (`true`/`false`) |
+| GET    | `/api/products`      | Get all products           | Query parameters (optional): `category`, `search`(search by description), `sortOrder` (`asc`/`desc`), `page`, `pageSize`, `lowStock` (`true`/`false`) |
 | GET    | `/api/products/{id}` | Get a single product by ID | -                                                                                                                                   |
 | POST   | `/api/products`      | Add a new product          | Body (JSON): `{ "name": "...", "description": "...", "price": 100, "stockQuantity": 10, "category": "..." }`                        |
 | PUT    | `/api/products/{id}` | Update a product           | Body (JSON): `{ "name": "...", "description": "...", "price": 120, "stockQuantity": 15, "category": "..." }`                        |
