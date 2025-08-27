@@ -29,7 +29,8 @@ to manage products in an inventory.
 ---
 Database already contains 20 by default dummy data fields 
 ## Setup Instructions
-### 0. Download dotnet sdk - https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.413-windows-x64-installer
+### 0. Download dotnet sdk
+https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.413-windows-x64-installer
 ### 1. Clone Repository
 git clone https://github.com/anveetpal01/HoshoProductInventory.git
 ### 2. goto directory
