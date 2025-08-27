@@ -12,8 +12,8 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://localhost:5002/api/products?category=Electronics&Description=Laptop&sortOrder=asc&page=1&pageSize=5&lowStock=true",
-          "protocol": "https",
+          "raw": "http://localhost:5002/api/products?category=Electronics&Description=Laptop&sortOrder=asc&page=1&pageSize=5&lowStock=true",
+          "protocol": "http",
           "host": ["localhost"],
           "port": "5002",
           "path": ["api","products"],
@@ -34,8 +34,8 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://localhost:5002/api/products/3",
-          "protocol": "https",
+          "raw": "http://localhost:5002/api/products/3",
+          "protocol": "http",
           "host": ["localhost"],
           "port": "5002",
           "path": ["api","products","3"]
@@ -54,8 +54,8 @@
           "raw": "{\n    \"name\": \"Smartwatch\",\n    \"Description\": \"Latest Fitness Smartwatch\",\n    \"price\": 250,\n    \"stockQuantity\": 12,\n    \"category\": \"Electronics\",\n    \"isActive\": true\n}"
         },
         "url": {
-          "raw": "https://localhost:5002/api/products",
-          "protocol": "https",
+          "raw": "http://localhost:5002/api/products",
+          "protocol": "http",
           "host": ["localhost"],
           "port": "5002",
           "path": ["api","products"]
@@ -74,8 +74,8 @@
           "raw": "{\n    \"name\": \"Smartwatch Pro\",\n    \"Description\": \"Latest Smartwatch with GPS\",\n    \"price\": 300,\n    \"stockQuantity\": 10,\n    \"category\": \"Electronics\",\n    \"isActive\": true\n}"
         },
         "url": {
-          "raw": "https://localhost:5002/api/products/21",
-          "protocol": "https",
+          "raw": "http://localhost:5002/api/products/21",
+          "protocol": "http",
           "host": ["localhost"],
           "port": "5002",
           "path": ["api","products","21"]
@@ -88,8 +88,8 @@
         "method": "DELETE",
         "header": [],
         "url": {
-          "raw": "https://localhost:5002/api/products/21",
-          "protocol": "https",
+          "raw": "http://localhost:5002/api/products/21",
+          "protocol": "http",
           "host": ["localhost"],
           "port": "5002",
           "path": ["api","products","21"]
