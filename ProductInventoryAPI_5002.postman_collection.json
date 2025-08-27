@@ -12,7 +12,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:5002/api/products?category=Electronics&Description=Laptop&sortOrder=asc&page=1&pageSize=5&lowStock=true",
+          "raw": "http://localhost:5002/api/products?category=Electronics&Description=Laptop&sortOrder=asc&page=1&pageSize=10&lowStock=false",
           "protocol": "http",
           "host": ["localhost"],
           "port": "5002",
