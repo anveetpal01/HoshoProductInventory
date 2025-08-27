@@ -39,7 +39,7 @@ dotnet restore
 
 ### 4. Run project / Start server
 dotnet run
-(Download the postman collection named - Product Inventory API_new.postman_collection.json)
+(Download the postman collection named - ProductInventoryAPI_5002.postman_collection.json)
 Download postman collection -> open postman -> import collection to postman -> Run it.
 
 ### Sample Apis and Responses
