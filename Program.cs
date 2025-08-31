@@ -11,8 +11,7 @@ builder.Services.AddSwaggerGen();
 
 // Database
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
-    ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Service Layer
 builder.Services.AddScoped<ProductService>();
