@@ -40,9 +40,7 @@ dotnet restore
 ### 4. Run project / Start server
 dotnet run
 ### 5. Check on postman
-Postman collection link -> https://github.com/anveetpal01/HoshoProductInventory/blob/main/ProductInventoryAPI_5002.postman_collection.json
-(Postman collection already downloaded in HoshoProductInventory as ProductInventoryAPI_5002.postman_collection.json)
-Open postman -> import collection to postman -> Run it.
+Postman collection link -> https://.postman.co/workspace/My-Workspace~49896187-d5f8-4763-8639-c00ec7d9f91e/collection/42579381-4f0a21eb-48fe-42e0-84df-24914d95d8cd?action=share&creator=42579381
 
 ### Sample Apis and Responses
 | Method | Endpoint             | Description                | Query / Body                                                                                                                        |
